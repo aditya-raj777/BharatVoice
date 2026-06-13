@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BharatVoice – India's AI Benefits Agent</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="flag">🇮🇳</span>
+        <span class="logo-text">BharatVoice</span>
+      </div>
+      <span class="tagline">India's AI Benefits Agent</span>
+    </div>
+  </header>
+
+  <!-- hero -->
+  <section class="hero">
+    <h1>Find your <span class="orange">government schemes</span><br>in seconds</h1>
+    <p class="hero-sub">
+      Tell me about yourself in Hindi or English — I'll find every scheme
+      you're eligible for, with documents needed and direct apply links.
+    </p>
+    <p class="hero-quote">"Jo scheme aapki hai, woh aapko milegi."</p>
+  </section>
+
+  <!-- chat window -->
+  <main class="main-wrap">
+    <div class="chat-box" id="chatBox"></div>
+
+    <div class="input-area">
+      <input
+        type="text"
+        id="userInput"
+        placeholder='Try: "Main 21 saal ka B.Tech student hoon, General category"'
+        autocomplete="off"
+      />
+      <button id="sendBtn" onclick="sendMessage()">Send</button>
+    </div>
+
+    <p class="hint-text">
+       Also try:
+      <em>"Kisan hoon Bihar se, SC category, 3 acre zameen"</em> &nbsp;|&nbsp;
+      <em>"BPL woman, rural UP, need help"</em>
+    </p>
+  </main>
+
+  <!-- features strip -->
+  <section class="features-section">
+    <h2 class="section-title">What BharatVoice does</h2>
+    <div class="features-grid">
+      <div class="feat">
+        <span class="feat-ico">🎙️</span>
+        <h3>Hindi + English</h3>
+        <p>Type naturally in Hindi, Hinglish, or English</p>
+      </div>
+      <div class="feat">
+        <span class="feat-ico">✅</span>
+        <h3>120+ Schemes</h3>
+        <p>Central + state schemes across all categories</p>
+      </div>
+      <div class="feat">
+        <span class="feat-ico">📋</span>
+        <h3>Document Checklist</h3>
+        <p>Exact documents needed — no guesswork</p>
+      </div>
+      <div class="feat">
+        <span class="feat-ico">🔗</span>
+        <h3>Direct Apply Links</h3>
+        <p>One click to the official government portal</p>
+      </div>
+      <div class="feat">
+        <span class="feat-ico">💬</span>
+        <h3>WhatsApp (Coming)</h3>
+        <p>No app needed — just use WhatsApp</p>
+      </div>
+      <div class="feat">
+        <span class="feat-ico">🔐</span>
+        <h3>DigiLocker (Planned)</h3>
+        <p>Auto-submit docs from DigiLocker</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer — solo credit -->
+  <footer class="footer">
+    <p>Built by <strong>Aditya Raj</strong></p>
+    <p class="footer-sub">Open source · MIT License · Contributions welcome</p>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="data/schemes.js"></script>
+  <script src="js/chat.js"></script>
+</body>
+</html>
