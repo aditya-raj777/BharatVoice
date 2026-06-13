@@ -51,11 +51,11 @@ BharatVoice aims to bridge this gap by making government scheme discovery simple
 
 ## 📸 Screenshots
 
-Add screenshots of your application here.
+<img width="1889" height="1032" alt="image" src="https://github.com/user-attachments/assets/56ae6007-1cce-41f5-9c3f-0d91780d5eac" />
+<img width="1887" height="1037" alt="image" src="https://github.com/user-attachments/assets/c9feca17-fca4-410f-88cd-6a0aa2356a8e" />
+<img width="1894" height="773" alt="image" src="https://github.com/user-attachments/assets/7d38cd1d-2a7c-47d7-90f7-100a9250f3fa" />
+<img width="1887" height="1036" alt="image" src="https://github.com/user-attachments/assets/7ee01650-37f1-4834-9829-27b88a3be056" />
 
-| Chat Interface | Scheme Results | Mobile View |
-| -------------- | -------------- | ----------- |
-| Screenshot     | Screenshot     | Screenshot  |
 
 ---
 
@@ -74,24 +74,6 @@ Add screenshots of your application here.
 * WhatsApp integration
 * DigiLocker integration
 * Multi-language support
-
----
-
-## 📂 Project Structure
-
-```bash
-bharatvoice/
-│
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   ├── config.js
-│   └── chat.js
-├── data/
-│   └── schemes.js
-└── README.md
-```
 
 ---
 
